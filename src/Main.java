@@ -30,62 +30,46 @@ public class Main {
 
         //        Задача4 Доставка карт
         int deliveryDistance = 95;
-        boolean a=deliveryDistance<=20;
-        boolean b=deliveryDistance>20 && deliveryDistance<=60;
-        boolean c=deliveryDistance>60 && deliveryDistance<=100;
-        boolean d=deliveryDistance>100;
+        boolean a = deliveryDistance <= 20;
+        boolean b = deliveryDistance > 20 && deliveryDistance <= 60;
+        boolean c = deliveryDistance > 60 && deliveryDistance <= 100;
+        boolean d = deliveryDistance > 100;
         int dayDelivery;
-        if(a) {
-            dayDelivery=1;
-            System.out.println("Доставка составляет "+dayDelivery+" сутки");
-        }if(b) {
-            dayDelivery=2;
-            System.out.println("Доставка составляет "+dayDelivery+" суток");
-        }if(c) {
-            dayDelivery=3;
-            System.out.println("Доставка составляет "+dayDelivery+" суток");
-        }if(d) {
+        if (a) {
+            dayDelivery = 1;
+            System.out.println("Доставка составляет " + dayDelivery + " сутки");
+        }
+        if (b) {
+            dayDelivery = 2;
+            System.out.println("Доставка составляет " + dayDelivery + " суток");
+        }
+        if (c) {
+            dayDelivery = 3;
+            System.out.println("Доставка составляет " + dayDelivery + " суток");
+        }
+        if (d) {
             System.out.println("Доставка не осуществляется");
         }
-
 
 
 //        Задача5 Сезон по номеру месяца
         byte monthNumber = 10;
         switch (monthNumber) {
-            case 12,1,2 :
+            case 12, 1, 2:
                 System.out.println("Это зима");
                 break;
-            case 3,4,5 :
+            case 3, 4, 5:
                 System.out.println("Это весна");
                 break;
-            case 6,7,8 :
+            case 6, 7, 8:
                 System.out.println("Это лето");
                 break;
-            case 9,10,11 :
+            case 9, 10, 11:
                 System.out.println("Это осень");
                 break;
             default:
                 System.out.println("Такого месяца нет");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

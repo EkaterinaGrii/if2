@@ -28,6 +28,7 @@ public class Main {
         }
 
 
+
         //        Задача4 Доставка карт
         int deliveryDistance = 95;
         boolean a = deliveryDistance <= 20;
